@@ -31,7 +31,7 @@ adapt the project to their specific needs.
 - Always version-pinning and checksumming **everything**: source code, tools,
   binary dependencies, etc.
 - Maintaining [monogres/postgres], a mirror of the official PostgreSQL repo
-  with per-version branches containing only the minimal patches needed to make
+  with [PG-version branches] containing only the minimal patches needed to make
   builds reproducible.
 
 These practices align with the principles of [Reproducible Builds] and make it
@@ -91,6 +91,7 @@ extensions** in a consistent and reproducible way:
 [Apache 2 License]: https://www.apache.org/licenses/LICENSE-2.0
 [Monogres "Option Sets" table]: https://github.com/monogres/monogres/?tab=readme-ov-file#option-sets
 [monogres/postgres]: https://github.com/monogres/postgres
+[PG-version branches]: https://github.com/monogres/postgres/branches/all?query=monogres
 [PostgreSQL]: https://postgresql.org
 [Reproducible Builds]: https://reproducible-builds.org
 [supply chain attacks]: https://en.wikipedia.org/wiki/Supply_chain_attack
