@@ -2,8 +2,6 @@ name: pre-commit checks
 
 on:
   push:
-    branches:
-      - '**'
     branches-ignore:
       - 'wip/**'
   pull_request:
