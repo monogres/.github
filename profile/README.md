@@ -1,13 +1,13 @@
-# `monogres`: The Reproducible PostgreSQL monorepo
+# `Monogres`: The reproducible Postgres monorepo
 
-**`monogres`** is a Postgres distribution that centralizes, builds, and
+**`Monogres`** is a Postgres distribution that centralizes, builds, and
 packages [PostgreSQL] along with a curated ecosystem of extensions. It’s
 designed to be **reproducible**, **modular**, and **community-driven**.
 
-At its core, `monogres` provides:
+At its core, `Monogres` provides:
 
-- **Upstream, reproducible PostgreSQL** builds with many predefined "option
-  sets" (see below).
+- **Upstream, reproducible Postgres builds** with many predefined "option sets"
+  (see below).
 - A centralized place to manage and build **Postgres extensions** in a
   consistent and reproducible way.
 - A **foundation** for downstream distributions to base their own customized
@@ -15,17 +15,17 @@ At its core, `monogres` provides:
 
 ## 🌱 Built for the Community
 
-`monogres` isn’t an end-user product. It’s an upstream project meant to serve
+`Monogres` isn’t an end-user product. It’s an upstream project meant to serve
 as a **foundation** for building downstream Postgres distributions.
 
 It’s developed and licensed under the [Apache 2 License], a permissive license
 that favors the integration and proliferation of downstream projects,
-encouraging Postgres vendors, contributors, and enthusiasts to: extend and
-adapt the project to their specific needs.
+encouraging Postgres vendors, contributors, and enthusiasts to extend and adapt
+the project to their specific needs.
 
 ## 🔒 Reproducible by Design
 
-`monogres` aims to ensure **bit-for-bit reproducibility** by:
+`Monogres` aims to ensure **bit-for-bit reproducibility** by:
 
 - Always building from upstream source
 - Always version-pinning and checksumming **everything**: source code, tools,
@@ -64,21 +64,21 @@ one-liners and **only change the build system and Postgres metadata**. Nothing
 else is changed.
 
 The long-term goal is for these patches to be upstreamed. Once that happens,
-this mirror will no longer be needed for future PostgreSQL versions but it will
+this mirror will no longer be needed for future Postgres versions but it will
 remain available to support reproducible builds of older releases.
 
 ## 🐘 Postgres, Your Way
 
-`monogres` builds Postgres Postgres with many predefined "option sets"
-(combinations of compile-time options) tailored for different use cases. For
-more details, check [Monogres "Option Sets" table].
+`Monogres` builds Postgres with many predefined "option sets" (combinations of
+compile-time options) tailored for different use cases. For more details, check
+the [`Monogres` "Option Sets" table].
 
 ## 🧩 A Unified Extension Ecosystem
 
 The Postgres extension ecosystem is vast, and every user has different needs,
 only using a handful of different extensions.
 
-`monogres` provides a centralized place to manage and build **Postgres
+`Monogres` provides a centralized place to manage and build **Postgres
 extensions** in a consistent and reproducible way:
 
 - Pulls extensions from their official repositories.
@@ -89,7 +89,7 @@ extensions** in a consistent and reproducible way:
 <!-- Links -->
 
 [Apache 2 License]: https://www.apache.org/licenses/LICENSE-2.0
-[Monogres "Option Sets" table]: https://github.com/monogres/monogres/?tab=readme-ov-file#option-sets
+[`Monogres` "Option Sets" table]: https://github.com/monogres/monogres/?tab=readme-ov-file#option-sets
 [monogres/postgres]: https://github.com/monogres/postgres
 [PG-version branches]: https://github.com/monogres/postgres/branches/all?query=monogres
 [PostgreSQL]: https://postgresql.org
